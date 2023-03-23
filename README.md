@@ -2,7 +2,7 @@
 #### Firmware Developer
 
 I am an electrical engineering student at the University of Victoria. I play hockey for the UVic mens team, and was able to play at a Junior 'A' level all across Canada before coming to UVic. 
-I am currently learning image processing in Python and have experience with embedded systems and IoT devices.
+I am currently learning image processing in Python and have experience with embedded systems and IoT devices, as well as hardware design, but my interests stretch into power systems and motor drive systems as well.
 
 Skills: C, C++, Python, System Verilog, VHDL, MATLAB, ARM assembly
 
