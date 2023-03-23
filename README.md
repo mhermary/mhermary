@@ -9,11 +9,9 @@ Tools: Altium, KiCAD, LTSPICE, Xilinx Vivado, Cadence Simvision, Synopsys Spygla
 - 💻  I’m currently working on this page. 
 - 🌏  I’m currently learning image processing in Python, and Mandarin 
 
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=mhermary&show_icons=true)  
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/mhermary)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/hermary/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](mhermary.github.io)  
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=mhermary&show_icons=true)  
 
 ## Projects
 ### [Augmented Reality Bike Helmet](https://brandenjvoss.github.io/AR_bike_helmet/) - *C++, Arduino*
