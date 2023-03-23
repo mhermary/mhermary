@@ -1,107 +1,36 @@
-# My Portfolio
+# Hi there 👋, my name is Matthew Hermary
+#### Firmware Developer
+
+
+Skills: C, C++, Python, System Verilog, VHDL, MATLAB, ARM assembly
+
+Tools: Altium, KiCAD, LTSPICE, Xilinx Vivado, Cadence Simvision, Synopsys Spyglass
+
+- 💻  I’m currently working on this page. 
+- 🌏  I’m currently learning image processing in Python, and Mandarin 
 
 
 
-## Description
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/mhermary)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/hermary/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](mhermary.github.io)  
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=mhermary&show_icons=true)  
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+## Projects
+### [Augmented Reality Bike Helmet](https://brandenjvoss.github.io/AR_bike_helmet/) - *C++, Arduino*
+**First Place - IEEE Victoria Technical Project Award**
 
-## Table of Contents (Optional)
+As bike usership has increased, as well as the growth of e-bikes, awareness of ones surroundings has become more important, especially with the high speeds of e-bikes.
+This project includes a rear-facing camera which was programmed to use object detection (TinyYOLOv2) to detect cars approaching from the rear, and indicate on a heads up display which side the car is approaching from. The project included an OLED display and a visor to let the cyclist keep their eyes on the road, as well as an Arduino to relay the message from the rear camera (HuskyLens) to the OLED. A battery pack was used to power the electronics, and it all fit snugly a standard bike helmet.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Skills
-
-<br/><br/>
-![][pythonIcon]
-![][CplusplusIcon]
-![][CIcon]
-![][arduinoIcon]
-![][vsIcon]
-![][rasPiIcon]
-![][RIcon]
- 
-![][wordpressIcon]
-![][htmlIcon]
-![][cssIcon]
-![][TFIcon]
-![][KerasIcon]
-![][JupyterIcon]
-![][GitIcon]
+### [Side Channel Attack defense](https://github.com/mhermary/Side-channel-attack) - *C, ARM assembly*
+Side Channel attacks are security exploits that gather information based on the implementation of a computer protocol or algoritm, rather than targeting flaws in the algorithm itself. This project features limitations on measurements due to the University Campus being closed for health issues.
+This is an embedded system that includes redundant operations to mask in a password character has been properly or improperly guessed. A large portion of this project was combing through the assembly to look for optimizations. 
 
 
-[pythonIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-python-50.png
-[CplusplusIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-c%2B%2B-48.png
-[CIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-circled-c-50.png
-[javaIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-java-50.png
-[javascriptIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-javascript-50.png
-[arduinoIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-arduino-50.png
-[vsIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-visual-studio-50.png
-[rasPiIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-raspberry-pi-new-50.png
-[sqlIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-sql-50.png
-[RIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-r-50.png
-[excelIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-microsoft-excel-48.png
-[wordpressIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-wordpress-50.png
-[reactIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-react-50.png
-[htmlIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-html-5-48.png
-[cssIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-css3-50.png
-[TFIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-tensorflow-50.png
-[KerasIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-keras-50.png
-[JupyterIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-jupyter-50.png
-[InVisionIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-invision-is-the-digital-product-design-platform-50.png
-[GitIcon]: https://github.com/cgriffs/image_icons/blob/main/IconFolder/codeicons/icons8-git-50.png
-  
+### [PWM Signal Generator and Monitor](https://github.com/mhermary/pot_monitor_PWM_signal_generator) - *C*
+This embedded system monitors a potentiometer's voltage and relays that to a 555 circuit to generate a PWM signal whose frequency varies based on the relayed voltage.
+This project included diving into the STM32 registers to manually set bits for timers, interrupts, and other functions to measure the incoming PWM signal frequency.
+The frequency and potentiometer resistance were displayed on an LCD using manual handshaking.
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-G
+### [Smart Alarm Clock Blinds](https://github.com/mhermary/Alarm_clock_blinds) - *C++, Arduino*
+Programmed an ESP32 to automatically open blinds with alarm times and commands being passed through MQTT while using NTP to sync time.
